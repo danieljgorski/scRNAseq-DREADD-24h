@@ -1,9 +1,6 @@
 .Rproj.user
 .Rhistory
-.RData
-.Ruserdata
-methods-scRNAseq-DREADD-24h.docx
-app/
-results/
 data/555_cellranger_aggr
+results/
 report/
+methods-scRNAseq-DREADD-24h.docx
