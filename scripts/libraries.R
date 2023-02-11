@@ -1,6 +1,6 @@
 library(Seurat)
 library(dplyr)
-library(DoubletFinder) 
+library(DoubletFinder)
 library(ggplot2)
 library(patchwork)
 library(readr)

@@ -19,11 +19,11 @@ cd ${WORKDIR}
 module load Miniconda/3
 
 # activate conda env
-conda activate scRNAseq_env
+conda activate scrnaseq
 
 # ignore this line, but always keep it
 set -euo pipefail
 
 # say, execute your R script
 # The script needs to be located in the workdir
-Rscript scripts/1-preprocessing.R
+Rscript scripts/libraries.R
