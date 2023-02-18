@@ -5,7 +5,7 @@
 #PBS -l walltime=01:00:00
 #PBS -l select=1:ncpus=1:mem=5G
 #PBS -m abe
-#PBS -M Daniel.Gorski@hhu.de
+#PBS -M Daniel.Gorski@uni-duesseldorf.de
 
 # ignore this line, but always keep it
 set +eu
