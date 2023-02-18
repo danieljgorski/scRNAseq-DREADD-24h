@@ -13,7 +13,7 @@ To recreate the full analysis you can follow the steps below. If you would like 
 
 ### R & Libraries
 
-R version 4.1.2 was used, packages versions and external sources were recorded with `renv` v0.16.0. To create a library with matching package versions from the ```renv.lock``` file, start an R session in the project directory and run:
+R version 4.1.2 was used, packages versions and external sources were recorded with `renv` v0.16.0. To create a library with matching package versions from the `renv.lock` file, start an R session in the project directory and run:
 
 ```r
 renv::restore()
