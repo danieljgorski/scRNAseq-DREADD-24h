@@ -4,9 +4,10 @@ This repository contains single-cell RNA sequencing analysis of a project led by
 
 ## Sequencing data
 
-Sequencing data, including fastq files and count matrices will be available upon publication or request.
+Processed and raw data have been deposited at ArrayExpress under accession E-MTAB-12882, a public link will be available upon publication or request.
 
 ## Analysis
+
 To recreate the full analysis you can follow the steps below. If you would like to process the data with your own custom workflow, a final list of cells (barcodes + metadata) after preprocessing, doublet removal and low-quality cluster removal can be found in:
 
 * `data/basic_annotation.csv`
@@ -40,6 +41,7 @@ By starting your R session with the R project file, `scRNAseq-DREADD-24h.Rproj`,
 `0-full-analysis.R` will create all necessary directories and run the full analysis in the appropriate order. Each analysis step can also be run individually for better interactivity, starting from `1-preprocessing.R`. The estimated total memory needed to hold and process the resulting Seurat objects is ~140GB.
 
 ## Examples
+
 <p align="center">
   <img src="/examples/DimPlot_basic_annotation.png" width="1000">
 </p>
@@ -48,7 +50,7 @@ By starting your R session with the R project file, `scRNAseq-DREADD-24h.Rproj`,
   <img src="/examples/Heatmap.png" width="1000">
 </p>
 
-
 ## To-do
+
 * Add abstract at submission
 * Add full author list at submission
